@@ -318,37 +318,6 @@ footer .full-width{
   ;
 }
 
-/*PORTFOLIO DISPLAY
-main {
-  background-color: #ccc;
-  height: 250px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-}
-
-.flex-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    justify-content: space-between;
-}
-
-.flex-items {
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  width: 30%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
- 
-}*/
-
 /*ABOUT ME SECTION */
   #about {
     display: flex;
@@ -381,8 +350,71 @@ main {
       width: 80%;
       justify-content: center;
   }
-  
-  
+   /* ==========================================================================
+     Styles Page
+     ==========================================================================
+  */
+.flex-box{
+  width: 100%;
+  height: auto;
+}
+.flex-items{
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  height: 200px;
+}
+#div-1{
+  background: url(../assets/recipe.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#div-2{
+  background: url(../assets/austen.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#div-3{
+  background: url(../assets/cwd.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#div-4{
+  background: url(../assets/vision.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+#div-5{
+  background: url(../assets/adventure.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#div-5 h1{
+  opacity: .9;
+}
+.flex-items h1{
+  font-size: 1.2em;
+  background-color: #787D6B;
+  opacity: .7;
+  color: #e2e3ed;
+  padding: 10px;
+  font-weight: lighter;
+  border-radius: 10%;
+  font-family: 'Quicksand', sans-serif;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   /* ==========================================================================
      Helper classes
      ========================================================================== */
@@ -577,6 +609,58 @@ main {
         width: 100%;
         padding-left: 30px;
       }
+
+      /****************STYLES PAGE *****************/
+      .flex-items{
+        width: 570px;
+        height: 400px;
+      }
+      .flex-box{
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column wrap;
+        align-items: center;
+      }
+      .flex-items h1{
+        font-size: 3em;
+        margin: 40px 2px;
+      }
+      .flex-box .content-wrapper{
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #div-1{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: 50px;
+      }
+      #div-2{
+        margin-bottom: 50px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      #div-3{
+        margin-bottom: 50px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      #div-4{
+        margin-bottom: 50px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      
   @media only screen and (min-width:1200px) {
     /*Desktop styles here*/
     body{
@@ -692,7 +776,58 @@ main {
       font-size: 1.875em;
     }
   
-   
+   /****************STYLES PAGE *****************/
+   .flex-items{
+    width: 700px;
+    height: 500px;
+    ;
+  }
+  .flex-box{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  .flex-items h1{
+    font-size: 3em;
+    margin: 40px 2px;
+  }
+  .flex-box .content-wrapper{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #div-1{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+  }
+  #div-2{
+    margin-bottom: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #div-3{
+    margin-bottom: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #div-4{
+    margin-bottom: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
   
   /* ==========================================================================
      Print styles.
