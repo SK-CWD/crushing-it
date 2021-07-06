@@ -154,7 +154,7 @@ html{
    
   .content-wrapper {
     width: 100%;
-    margin: 50px 0;
+    margin-top: 50px;
     
   }
   /* -------------------- Mobile Styles - Homepage -------------------- */
@@ -275,6 +275,7 @@ footer .full-width{
   flex-flow: row wrap;
   margin: 0 10%;
   font-size: 1.5em;
+  
 }
 .reviews figure{
   margin: 0;
@@ -290,6 +291,67 @@ footer .full-width{
 .reviews h5{
   font-weight: lighter;
 }
+
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  margin-bottom: 10%;
+
+}
+.form:hover a{
+  background-color: #ddbea9;
+  color: #707070;
+}
+.form a {
+  padding: 20px 10px;
+  margin-top: 20px;
+  background-color: #a5a58d;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 2px black;
+}
+.form h3{
+  font-family: 'STIX Two Math', serif;
+  ;
+}
+
+/*PORTFOLIO DISPLAY
+main {
+  background-color: #ccc;
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.flex-items {
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 1.6em;
+  background-color: #f16059;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}*/
 
 /*ABOUT ME SECTION */
   #about {
@@ -434,19 +496,20 @@ footer .full-width{
     .reviews .content-wrapper{
       margin-bottom: 0;
     }
-    header {
-      justify-content: space-around;
-      padding: 33px 0;
+    header img {
+      
     }
     header .content-wrapper {
-      justify-content: space-around;
+      justify-content: space-between;
     }
     header figure {
       width: 10%;
+      padding: 10px;
     }
     header nav {
      justify-content: space-around;
-     width: 50%;
+     width: 30%;
+     padding: 30px;
     }
     header nav ul {
       justify-content: space-between;
@@ -524,7 +587,7 @@ footer .full-width{
       font-size: 1em;
     }
     .content-wrapper {
-      max-width: 960px;
+      
     }
     header {
       padding: 15px 0;
@@ -558,8 +621,42 @@ footer .full-width{
    .reviews .content-wrapper{
       display: flex;
       justify-content: center;
-      flex-flow: column wrap;
+      flex-flow: row wrap;
       max-width: 960px;
+    }
+    .reviews figure {
+      width: 100%;
+    }
+    .reviews article{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      font-size: 1em;
+      padding-bottom: 10%;
+    }
+    .reviews img{
+      width: 500px;
+      height: auto;
+    }
+    .reviews, .review-cont h4{
+      font-size: 3em;
+      margin-top: 0;
+    }
+    .reviews, .review-cont h5 p{
+      font-size: 1.2em;
+    }
+    .reviews, .review-cont{
+      padding-left: 20px;
+
+    }
+    .reviews, .proj-2{
+      flex-direction: row-reverse;
+    }
+    .form{
+      margin-bottom: 20px;
+    }
+    #about p{
+      padding-left: 0;
     }
     footer{
       padding: 0 10%;
