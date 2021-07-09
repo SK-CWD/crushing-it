@@ -342,8 +342,9 @@ footer .full-width{
     background-size: cover;
     background-repeat: no-repeat;
     color: #707070;
-    height: 550px;
+    max-height: 550px;
     padding-bottom: 20px;
+    overflow: scroll;
   }
   #about h3{
     font-family: 'Source Code Pro', monospace;
